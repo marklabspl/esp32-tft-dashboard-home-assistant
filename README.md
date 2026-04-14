@@ -2,7 +2,7 @@
 ESP32 TFT dashboard for Home Assistant (2.8" display, ~$12 build). MQTT, no YAML, no automations. Supports sensors, charts, weather, powerflow and energy prices.
 # 📟 ESP32 TFT Dashboard for Home Assistant (No YAML)
 
-💸 Build your own Home Assistant dashboard for **~$12 (~50 PLN)**  
+💸 Build your own Home Assistant dashboard for **~$12 **  
 📟 Works on **ESP32 + 2.8" TFT display**  
 ⚡ No YAML, no automations — everything configured from UI  
 
@@ -189,6 +189,8 @@ Set:
 The easiest way to install the integration is via HACS.
 
 ### 📦 Installation via HACS
+
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=YOUR_USERNAME&repository=esp32-tft-dashboard-home-assistant&category=integration)
 
 1. Open Home Assistant  
 2. Go to:
