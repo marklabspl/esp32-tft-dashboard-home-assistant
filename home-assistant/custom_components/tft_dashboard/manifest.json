@@ -1,0 +1,12 @@
+{
+  "domain": "tft_dashboard",
+  "name": "TFT Dashboard MQTT Bridge (beta)",
+  "version": "0.1.1",
+  "config_flow": true,
+  "documentation": "https://github.com/marklabs/tft-dashboard",
+  "issue_tracker": "https://github.com/marklabs/tft-dashboard/issues",
+  "requirements": [],
+  "dependencies": ["mqtt"],
+  "codeowners": [],
+  "iot_class": "local_push"
+}

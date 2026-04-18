@@ -1,0 +1,73 @@
+"""Constants for TFT Dashboard MQTT bridge."""
+
+DOMAIN = "tft_dashboard"
+
+CONF_MQTT_PREFIX = "mqtt_prefix"
+CONF_RETAIN = "retain"
+CONF_PUBLISH_ON_START = "publish_on_start"
+CONF_RELAXED_LIMITS = "relaxed_limits"
+CONF_HISTORY_POLL_INTERVAL = "history_poll_interval"
+
+CONF_ENTITY_ID = "entity_id"
+CONF_SUFFIX = "suffix"
+CONF_ENTITY_ROLE = "entity_role"
+CONF_HISTORY_ENABLED = "history_enabled"
+CONF_HISTORY_FROM_RECORDER = "history_from_recorder"
+CONF_HISTORY_HOURS = "history_hours"
+CONF_HISTORY_HOURLY = "history_hourly"
+
+SUBENTRY_TYPE_ENTITY = "entity"
+
+DEFAULT_MQTT_PREFIX = "tft/"
+DEFAULT_RETAIN = True
+DEFAULT_PUBLISH_ON_START = True
+DEFAULT_HISTORY_FROM_RECORDER = True
+DEFAULT_HISTORY_HOURS = 24
+DEFAULT_HISTORY_HOURLY = False
+
+MAX_HISTORY_HOURS = 24
+MAX_HISTORY_SENSORS = 5
+HISTORY_POINTS = 24
+HISTORY_LOOKBACK_H = 24
+HISTORY_MAX_RAW_STATES = 4000
+HISTORY_INTERVAL_S = 120
+DEFAULT_HISTORY_POLL_INTERVAL = 120
+QUERY_TIMEOUT_S = 15.0
+
+MAX_ENTITIES = 20
+MAX_ENTITIES_EXPERT = 64
+MAX_HISTORY_SENSORS_EXPERT = 12
+
+ROLE_SENSOR = "sensor"
+ROLE_GAUGE = "gauge"
+ROLE_CHART_LINE = "chart_line"
+ROLE_CHART_BAR = "chart_bar"
+ROLE_BINARY = "binary"
+ROLE_POWERFLOW_PV = "powerflow_pv"
+ROLE_POWERFLOW_LOAD = "powerflow_load"
+ROLE_POWERFLOW_GRID = "powerflow_grid"
+ROLE_POWERFLOW_BAT = "powerflow_bat"
+ROLE_WEATHER = "weather"
+ROLE_ENERGY_PRICE = "energy_price"
+ROLE_CUSTOM = "custom"
+
+ROLE_SUFFIX_DEFAULTS = {
+    ROLE_SENSOR: None,
+    ROLE_GAUGE: None,
+    ROLE_CHART_LINE: None,
+    ROLE_CHART_BAR: None,
+    ROLE_BINARY: None,
+    ROLE_POWERFLOW_PV: "pv_power",
+    ROLE_POWERFLOW_LOAD: "home_load",
+    ROLE_POWERFLOW_GRID: "grid_power",
+    ROLE_POWERFLOW_BAT: "battery_power",
+    ROLE_WEATHER: "weather",
+    ROLE_ENERGY_PRICE: "energy_price",
+    ROLE_CUSTOM: None,
+}
+
+ROLE_HISTORY_CAPABLE = {
+    ROLE_CHART_LINE,
+    ROLE_CHART_BAR,
+    ROLE_ENERGY_PRICE,
+}
