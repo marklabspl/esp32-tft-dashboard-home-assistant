@@ -118,7 +118,7 @@ The Home Assistant integration can fill charts with **last 24h of data** from HA
 
 ### 1. Flash firmware
 
-👉 **[marklabs.pl/tftflasher](https://marklabs.pl/tftflasher)**
+👉 **[marklabs.pl/tftflasher](https://marklabs.pl/en/tftflasher)**
 
 Open the page in Chrome or Edge, connect ESP32 via USB, click **Flash firmware**.
 No tools or command line needed.
