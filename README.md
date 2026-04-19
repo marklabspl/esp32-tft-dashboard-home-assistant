@@ -10,7 +10,9 @@
 
 ## 📸 Preview
 
-*(add screenshot or GIF here)*
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/6039a7c1-481f-4da9-ae39-1f3273a8d09d" width="400" alt="TFT Dashboard preview" />
+</div>
 
 ---
 
